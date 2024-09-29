@@ -9,10 +9,10 @@ const index = () => {
 
     const textChangeHandler = (e) => {
         setValue(e.target.value)
-        setValue("")
     }
     const searchHandle = () => {
         onSearchTextHandler(value)
+        setValue("")
     }
   return (
     <>
